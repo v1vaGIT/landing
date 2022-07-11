@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Культура</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <img src="src/logo.svg">
+                </div>
+                <div class="header__menu menu">
+                    <div class="menu__body">
+                        <ul class="menu__list">
+                            <li><a href="" class="menu__link underline-effect">ПРОЕКТЫ</a></li>
+                            <li><a href="" class="menu__link underline-effect">О КОМПАНИИ</a></li>
+                            <li><a href="" class="menu__link underline-effect">ВАКАНСИИ</a></li>
+                            <li><a href="" class="menu__link underline-effect">КОНТАКТЫ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu__number">
+                    <a href="tel:464250">+7 (4212) 464-250</a>
+                </div>
+                <div class="header__burger burger">
+                    <div class="burger__icon">
+                        <span></span>
+                    </div>
+                    <nav class="burger__body">
+                        <div class="burger__logo">
+                            <img src="src/logo.svg">
+                        </div>
+                        <ul class="burger__list">
+                            <li><a href="" class="burger__link">Социальная ответственность</a></li>
+                            <li><a href="" class="burger__link">Проектное бюро</a></li>
+                            <li><a href="" class="burger__link">Аренда коммерческой недвижимости</a></li>
+                            <li><a href="" class="burger__link">Проекты</a></li>
+                            <li><a href="" class="burger__link">О компании</a></li>
+                            <li><a href="" class="burger__link">Вакансии</a></li>
+                            <li><a href="" class="burger__link">Контакты</a></li>
+                        </ul>
+                        <div class="burger__contact-content">
+                            <div class="burger__contacts">
+                                <div class="burger__number">
+                                    <p>+7 (4212) 464-250</p>
+                                </div>
+                                <div class="burger__mail">
+                                    <p>info@da-development.com</p>
+                                </div>
+                            </div>
+                            <div class="burger__socials">
+                                <a class="vk-logo"><img src="src/vk-logo.svg"></a>
+                                <a class="tg-logo"><img src="src/tg-logo.svg"></a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section-intro">
+        <div class="container">
+            <div class="intro__hello-block">
+                <div class="intro__first-text">
+                    <div class="intro__line"></div> 
+                    <div class="intro__group-name">
+                        <p>Группа компаний «ДА! Девелопмент»</p>
+                    </div>
+                </div>
+                <div class="intro__housing-complex-name">
+                    <h1>Жилой комплекс «Культура»</h1>
+                </div>
+                <div class="intro__housing-complex-description">
+                    <p>Первый дом по «зелёному стандарту» на Дальнем Востоке.</p>
+                    <p>Новая культура жизни в городе</p>
+                </div>
+            </div>
+        </div>
+        <div class="mouse"><img src="src/mouse.svg"></div>
+        <div class="container">  
+            <div class="social-links">      
+                    <a class="vk-logo"><img src="src/vk-logo.svg"></a>
+                    <a class="tg-logo"><img src="src/tg-logo.svg"></a>
+            </div>  
+        </div>
+    </section>
+        
+        <section class="section-about">
+            <marquee class="about__marquee marque" behavior="scroll" direction="left">о проекте о проекте</marquee>
+            <div class="container">
+                <div class="about__main-text heading32">
+                    <p>Первый объект в ДФО, который прошел сертификацию по российской системе повышения энергоэффективности и экологичности GREEN ZOOM</p>
+                </div>
+                <div class="about__description-text">
+                <div class="about__text1 text">
+                    <p>Детская площадка, тренажерный уголок и зеленый двор без автомобилей — все это на территории «Культуры». Кинотеатр, кафе, аквапарк, бульвар для прогулок — буквально через дорогу.</p>
+                </div>
+                <div class="about__text2 text">
+                    <p>Автомобили жильцов будут парковаться только на двухуровневой подземной парковке, имеющией выезды с улиц и прямые выходы к подъездным лифтам.</p>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="house-picture">
+        </section>
+
+        <section class="section-green-technologies">
+            <marquee class="green-technologies__marquee marque" behavior="scroll" direction="left">зеленые технологии</marquee>
+            <div class="container">
+                <div class="green-technologies__content">
+                    <div class="green-technologies__text">
+                        <div class="green-technologies__main-text heading36">
+                            <p>Постоянно улучшаем уровень жизни</p>
+                        </div>
+                        <div class="green-technologies__description-text text">
+                            <p>Основная цель —  повысить качество любого девелоперского проекта по шести направлениям: местоположение и его экологичность, энергоэффективность 
+                            объекта и снижение вредных выбросов, водоэффективность, экологичность строительных и отделочных материалов, а также внутренней среды в целом.
+                            </p>
+                        </div>
+                        <div class="green-technologies__callback">
+                            <div class="green-technologies__callback-text text">
+                                <a class="text " href="tel:464250">связаться с нами</a>
+                            </div>
+                            <div class="green-technologies__callback-line"></div>
+                        </div>
+                    </div>
+                    <div class="green-technologies__image">
+                    </div>
+                </div>
+                <div class="green-technologies__advantage-list">
+                    <hr>
+                    <div class="green-technologies__advantage">
+                        <div class="green-technologies__advantage-number">
+                            <p>01/</p>
+                        </div>
+                        <div class="green-technologies__advantage-heading heading24">
+                            <p>Альтернативные источники энергии</p>
+                        </div>
+                        <div class="green-technologies__advantage-text text">
+                            <p>Первая в Хабаровске система подогрева воды с помощью солнечных панелей. 
+                                В Культуре не знают о сезонных отключениях воды, платят меньше и живут в гармонии с природой.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="green-technologies__advantage">
+                        <div class="green-technologies__advantage-number">
+                            <p>02/</p>
+                        </div>
+                        <div class="green-technologies__advantage-heading heading24">
+                            <p>Озеленение</p>
+                        </div>
+                        <div class="green-technologies__advantage-text text">
+                            <p>Зеленый двор без авто, зеленые эксплуатируемые крыши и газон.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="green-technologies__advantage">
+                        <div class="green-technologies__advantage-number">
+                            <p>03/</p>
+                        </div>
+                        <div class="green-technologies__advantage-heading heading24">
+                            <p>Зеленый — значит экономичный</p>
+                        </div>
+                        <div class="green-technologies__advantage-text text">
+                            <p>Сертификация по зеленому стандарту предполагает соблюдение норм повышенной энергоэффективности.
+                            Проще говоря, Культура — теплый дом. Счета за отопление здесь значительно меньше. 
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="green-technologies__advantage">
+                        <div class="green-technologies__advantage-number">
+                            <p>04/</p>
+                        </div>
+                        <div class="green-technologies__advantage-heading heading24">
+                            <p>Центр города</p>
+                        </div>
+                        <div class="green-technologies__advantage-text text">
+                            <p>Культура — это тихий уголок в историческом центре города. Если вы любите уют и при этом хотите оставаться в центре событий, вам здесь понравится.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="green-technologies__advantage">
+                        <div class="green-technologies__advantage-number">
+                            <p>05/</p>
+                        </div>
+                        <div class="green-technologies__advantage-heading heading24">
+                            <p>Строим для своих детей</p>
+                        </div>
+                        <div class="green-technologies__advantage-text text">
+                            <p>Детская площадка и тренажерный уголок, зеленый двор без автомобилей — все это на территории Культуры. Кинотеатр, кафе, аквапарк, бульвар для прогулок — буквально через дорогу. </p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-gallery">
+            <marquee class="gallery__marquee marque" behavior="scroll" direction="left">галерея галерея галерея</marquee>
+            <div class="container">
+                <div class="gallery__heading heading36">
+                    <p>Галерея проекта</p>
+                </div>
+                <div class="swiper swiper-slider">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="src/slider-pictures/slider1.jpg" style="width: 425px; height:400px"></div>
+                    <div class="swiper-slide"><img src="src/slider-pictures/slider2.jpg" style="width: 425px; height:400px"></div>
+                    <div class="swiper-slide"><img src="src/slider-pictures/slider3.jpg" style="width: 425px; height:400px"></div>
+                    <div class="swiper-slide"><img src="src/slider-pictures/slider4.jpg" style="width: 425px; height:400px"></div>
+                    </div>                
+                    <div class="scrollbar-line swiper-scrollbar" style="background: rgba(255, 255, 255, 0.22);"></div>
+                </div>
+                <div class="gallery__text">
+                    <div class="gallery__main-text heading32">
+                        <p>Объект, который прошел сертификацию по российской системе повышения </p>
+                    </div>
+                    <div class="gallery__description-text text">
+                        <p>Основная цель —  повысить качество любого девелоперского проекта по шести направлениям: местоположение и его экологичность, 
+                            энергоэффективность объекта и снижение вредных выбросов, водоэффективность, экологичность строительных и отделочных материалов, 
+                            а также внутренней среды в целом.  Помимо «зеленых» технологий, обеспечивающих энергоэффективность, дом интересен наличием двух 
+                            зон отдыха на крыше и концепцией зеленый двор без машин.
+                        </p>
+                    </div>
+                </div>    
+                <div class="gallery__aditional-info">
+                    <div class="gallery__return-button">
+                        <div class="gallery__button-text text">
+                            <a href="#" class="gallery__back-button">назад в список проектов</a>
+                        </div>
+                        <div class="return-button-line"></div>
+                    </div>
+                    <div class="gallery__aditional-info-text">
+                        <div class="gallery__information">
+                            <div class="heading32">
+                                <p>2021г</p>
+                            </div>
+                            <div class="text">
+                                <p>первая очередь</p>
+                            </div>
+                        </div>
+                        <div class="gallery__information">
+                            <div class="heading32">
+                                <p>198</p>
+                            </div>
+                            <div class="text">
+                                <p>квартир заселено</p>
+                            </div>
+                        </div>
+                        <div class="gallery__information">
+                            <div class="heading32">
+                                <p>60лет</p>
+                            </div>
+                            <div class="text">
+                                <p>гарантия дома</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-map">
+            <div id="map" style="width: 100%; height: 600px; z-index: 3;"></div>
+        </section>
+
+        <section class="section-callback">
+            <div class="callback-container">
+                <div class="callback__heading heading36">
+                    <p>Заказать обратный звонок</p>
+                </div>
+                <form class="callback-form" action="#" method="post">
+                    <div class="callback__form-staff">
+                        <div class="callback__input">
+                            <input class="callback__item callback-name" type="text" name="name" value="" placeholder="Ваше имя">
+                            <div class="callback__line "></div>
+                        </div>
+                        <div class="callback__input">
+                        <input class="callback__item callback-phone" type="tel" name="phone" value="" placeholder="Телефон">
+                        <div class="callback__line"></div>
+                        </div>
+                    </div>
+                    <div class="callback__description">
+                        <div class="callback__agreement-opd">
+                            <p>Заполняя данную форму, вы подтверждаете</p>
+                            <p>свое согласие на <a href="#" class="agreement-opd">обработку персональных данных</a></p>
+                        </div>
+                        <div class="callback__input">
+                            <button type="button" class="submit-button">отправить</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="container">
+                <div class="footer">
+                    <div class="footer__contact-info">
+                        <div class="footer__logo">
+                            <img src="src/logo.svg" alt="logo">
+                        </div>
+                        <div class="footer__address">
+                            <p>Хабаровск, БЦ «Преображенский»</p>
+                            <p>680000, Тургенева, 26а, оф. 404</p>
+                        </div>
+                        <div class="footer__contact">
+                            <div class="footer__number">
+                                <p>+7 (4212) 464-250</p>
+                            </div>
+                            <div class="footer__mail">
+                                <p>info@da-development.com</p>
+                            </div>
+                        </div>
+                        <div class="social-networks">
+                            <a class="vk-logo"><img src="src/vk-logo.svg"></a>
+                            <a class="tg-logo"><img src="src/tg-logo.svg"></a>
+                        </div>
+                    </div>
+                    <hr class="footer-hr">
+                    <div class="footer__aditional-info">
+                        <div class="footer__rights">
+                            <p>© 2021 Все права на публикуемые на сайте материалы принадлежат</p>
+                            <p>ООО Специализированный Застройщик «Да! Девелопмент»</p>
+                        </div>
+                        <div class="footer__rights-mobile">
+                            <p>© 2021 «Да! Девелопмент»</p>
+                        </div>
+                        <div class="footer__privacy-policy">
+                            <p>Политика конфиденциальности</p>
+                        </div>
+                        <div class="footer__developer">
+                            <p>Разработка V1VA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
